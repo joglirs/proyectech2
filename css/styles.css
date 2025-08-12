@@ -151,7 +151,7 @@ hr{
 
 /*Configuracion del origen*/
 
-/*estilos de la imagen*/
+/*estilos de la imagen
 .imgpr .line{
     padding: 0;
     margin: 0;
@@ -183,11 +183,48 @@ hr{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
+*/
 
 
 
 
+/*titulo pagina de origen y evolucion*/
+.principal-org {
+background-color: #E7E5E4;
+padding: 0;
+margin: 0;
 
+}
+
+
+.titulo-org h2{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+color: #10A155;
+margin-top: 0;
+padding-top: 2%;
+font-size: 50px;
+}
+
+.col .img-org {
+    display: block;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin-right: 50%;
+    padding-top: 10%;
+    
+   
+}
+
+.col h4{
+color: #10A155;
+text-align: center;
+margin-right: 20%;
+margin-top: 2%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+}
 
 
 /*Estilo del footer*/
@@ -200,11 +237,14 @@ hr{
     height: 40px;
     color: #fff;
     position: absolute;
-    bottom: 0;/*Fija el footer sin que se mueba en la parte inferior.*/
+   /* bottom: 0;/*Fija el footer sin que se mueba en la parte inferior.*/
     width: 100%;
     margin-top: 30%;
     
 }
+
+
+
 
 
 
@@ -223,3 +263,4 @@ hr{
         margin-left: 60px;
     }
 }
+
